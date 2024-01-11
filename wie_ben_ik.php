@@ -32,7 +32,6 @@ include './php_functies/isset.php';
     <!-- stylesheet links -->
     <?PHP echo link_kleurenthema(); ?>
     <link rel="stylesheet" href="./style.css">
-    <script src="./javascript_functies/wie_ben_ik.js" defer></script>
     <title>Mijn web portfolio</title>
 </head>
 <body>
@@ -69,7 +68,7 @@ include './php_functies/isset.php';
                     smgdjfghdjbg dhfg dg gkjsgk
                 </p>
             </div>
-            <div>
+            <div class="d-flex justify-content-around">
                 <div id="sterktes">
                     <p class="highlight">Mijn sterktes</p>
                     <ul>

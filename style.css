@@ -250,7 +250,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2rem;
-    height: 30rem;
+    height: 34rem;
 }
 
 .grids > div {
@@ -298,16 +298,6 @@ header {
 .ikke {
     border-radius: 2rem;
     width: 15rem;
-}
-
-.over_mij > div {
-    height: 90vh;
-}
-
-.custom_tooltip {
-    /* display: none; */
-    position: relative;
-    background-color: var(--secondary);
 }
 
 
