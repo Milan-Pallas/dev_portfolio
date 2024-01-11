@@ -32,14 +32,112 @@ include './php_functies/isset.php';
     <!-- stylesheet links -->
     <?PHP echo link_kleurenthema(); ?>
     <link rel="stylesheet" href="./style.css">
+    <script src="./javascript_functies/wie_ben_ik.js" defer></script>
     <title>Mijn web portfolio</title>
 </head>
 <body>
     <?PHP include './webelementen/navbar.php'; return_alert(); ?>
     
-    <div class="a"></div>
+    <header class="d-flex align-items-center justify-content-evenly w-100 px-3 mb-5">
+        <div>
+            <h1>Wat meer informatie over mij</h1>
+            <p>
+                Mijn volledige naam is Milan Pallas. <br>
+                Zie deze pagina als een zoort FAQ over mijzelf.
+            </p>
+        </div>
+        <img class="logo ikke" src="./afbeeldingen/ik.png" alt="afbeelding van mijzelf">
+    </header>
 
-    <p><a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
+    <!-- ----------------------- -->
+    <!-- Twee informatieve grids -->
+    <div class="card-group grid_container">
+        <!-- De eerste grid -->
+        <div class="container col-12 col-lg-6 grids mb-4">
+            <div>
+                <h2>Wat voor persoon ben ik?</h2>
+                <p>
+                    Ga ik later uit typen <br>
+                    smgdjfghdjbg dhfg dg gkjsgk
+                </p>
+                <p><a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
+            </div>
+            <div>
+                <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
+                <p>
+                    Ga ik later uit typen <br>
+                    smgdjfghdjbg dhfg dg gkjsgk
+                </p>
+            </div>
+            <div>
+                <div id="sterktes">
+                    <p class="highlight">Mijn sterktes</p>
+                    <ul>
+                        <li id="netjes">netjes zijn met spullen</li>
+                        <li id="op_tijd">op tijd komen</li>
+                    </ul>
+                </div>
+                <div id="zwaktes">
+                    <p class="highlight">Mijn zwaktes</p>
+                    <ul>
+                        <li id="conclussies">Snel conclussies trekken</li>
+                        <li id="communicatie">communicatie</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- De tweede grid -->
+        <div class="container col-12 col-lg-6 grids mb-4">
+            <div>
+                <h2>Wat is mijn doel?</h2>
+                <p>
+                    Ga ik later uit typen <br>
+                    smgdjfghdjbg dhfg dg gkjsgk
+                </p>
+            </div>
+            <div class="d-inline mt-auto h-100">
+                <h2>Mijn cv, diploma's en certificaten</h2>
+
+            </div>
+            <div>
+                <h2>Mijn competenties</h2>
+                <ul>
+                    <li><p>Observerend</p></li>
+                    <li><p>Naukeurig</p></li>
+                    <li><p>Serieus</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------- -->
+    <!-- De gesoiegelde grids -->
+    <div class="card-group grid_container">
+        <!-- De eerste grid -->
+        <div class="container col-12 col-lg-6 grids mb-4">
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        <!-- De tweede grid -->
+        <div class="container col-12 col-lg-6 grids mb-4">
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
 
     <?PHP include './webelementen/footer.php' ?>
 </body>

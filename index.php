@@ -32,7 +32,7 @@ include './php_functies/isset.php';
     <!-- stylesheet links -->
     <link rel="stylesheet" href="./style.css">
     <?PHP echo link_kleurenthema(); ?>
-    <script src="./acties.js" defer></script>
+    <script src="./javascript_functies/index.js" defer></script>
     <title>Mijn web portfolio</title>
 </head>
 
@@ -43,13 +43,13 @@ include './php_functies/isset.php';
     <!-- De header -->
     <header class="d-flex flex-column justify-content-center align-items-center px-3 mb-5">
         <h1 class="text-wrap text-center mt-4 mx-5">Het web portfolio van een beginner software ontwikkelaar</h1>
-        <div class="w-75 d-flex align-items-center justify-content-evenly w-100">
+        <div class="d-flex align-items-center justify-content-evenly w-100">
             <p>
                 Hallo! dit is mijn koele web-portfolio.<br>
                 Kijk rustig rond en blijf zolang als je wil.
             </p>
             <!-- <button type="button" class="button_css button rounded-4 p-2 mx-2">Over mij</button> -->
-            <img class="logo" src="./afbeeldingen/logo.png" alt="moss logo">
+            <img class="logo" src="./afbeeldingen/kat2.png" alt="kat logo">
         </div>
     </header>
 

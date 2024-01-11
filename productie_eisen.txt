@@ -37,14 +37,15 @@ Persoonlijk
     competenties
     sterktes / zwaktes
     Leerstijl / leervoorkeur
-    Enneagram
-    https://enneagram-personality.com/nl/657c2dcc-2360-43cc-b080-4cfa95ca4579
-    DISC profiel
     Wat voor persoon ben ik
     CV
     Diploma's
     Certificaten
     POP / PAP
+
+    Enneagram
+    https://enneagram-personality.com/nl/657c2dcc-2360-43cc-b080-4cfa95ca4579
+    DISC profiel
 
 *--------------------*
 Algemene website eisen

@@ -197,7 +197,7 @@ footer {
  /*                     */
 /* database_error.php */
 .dc {
-    width: 60vw;
+    width: 40vw;
 }
 
  /*           */
@@ -234,7 +234,9 @@ header {
 }
 
 .logo {
+    border-radius: 1rem;
     width: 7rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .grid_container:last-of-type {
@@ -291,8 +293,26 @@ header {
     border-color: transparent;
 }
 
+ /*                */
+/* wie_ben_ik.php */
+.ikke {
+    border-radius: 2rem;
+    width: 15rem;
+}
+
+.over_mij > div {
+    height: 90vh;
+}
+
+.custom_tooltip {
+    /* display: none; */
+    position: relative;
+    background-color: var(--secondary);
+}
+
+
  /*                         */
-/* Statustieken voor Nerds */
+/* statustieken_voor_Nerds.php */
 .grote_container {
     display: flex;
     flex-direction: column;
