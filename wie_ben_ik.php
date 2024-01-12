@@ -89,7 +89,7 @@ include './php_functies/isset.php';
                 <h2>Wat is mijn doel?</h2>
                 <p>
                     Ik heb nog niet besloten in welke programmeertaal ik mij wil verdiepen.<br>
-                    Omdat mijn frontend nog niet heel professioneel wil ik mij meer verdiepen in back-end.
+                    Omdat mijn frontend niet heel professioneel wil ik mij meer verdiepen in back-end.
                 </p>
             </div>
             <div class="d-inline mt-auto h-100">
