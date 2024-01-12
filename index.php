@@ -74,6 +74,7 @@ include './php_functies/isset.php';
                     <li><a href="https://en.wikipedia.org/wiki/Kirby_(series)">Kirby</a></li>
                     <li><a href="https://deltarune.fandom.com/wiki/Main_Page">Deltarune</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hollow_Knight">Hollow Knight</a></li>
+                    <li><a href="https://horizon.fandom.com/wiki/Horizon_Zero_Dawn">Horizon Zero Dawn</a></li>
                 </ul>
             </div>
             <div>
@@ -83,6 +84,7 @@ include './php_functies/isset.php';
                     <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Hell%27s_Paradise:_Jigokuraku">Hell's Paradise</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Fire_Force">Fire Force</a></li>
+                    <li><a href="https://dr-stone.fandom.com/wiki/Dr._Stone_Wiki">Dr. Stone</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Frieren">Frieren: Beyond Journey's End</a></li>
                 </ol>
             </div>
