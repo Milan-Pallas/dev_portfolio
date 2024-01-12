@@ -34,15 +34,27 @@ include './php_functies/functies.php';
     <title>Mijn web portfolio</title>
 </head>
 <body >
-    
-    <div class="d-flex flex-column mx-auto align-items-center justify-content-around vh-100">
-        <h1>Helaas....</h1>
-        <img class="dc" src="./afbeeldingen/disconnected.png" alt="he disconnected">
-        <p>Er is iets fout gegaan bij het koppelen van het database waardoor de pagina niet geladen kon worden. </p>
-        <p>Sluit de pagina en open de link opnieuw.</p>
-        <p>Error code:</p>
-        <p><?PHP echo $_SESSION['DBMessage']; ?></p>
-    </div>
+    <table id="database_error">
+        <thead>
+            <tr>
+                <th><h1>Helaas</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <p>Er is iets fout gegaan bij het koppelen van het database waardoor de pagina niet geladen kon worden.</p>
+                    <p>Sluit de pagina en open de link opnieuw.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Error code:</p>
+                    <p><?PHP echo $_SESSION['DBMessage']; ?></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
     
 </body>
 </html>

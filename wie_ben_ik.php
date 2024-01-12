@@ -55,34 +55,32 @@ include './php_functies/isset.php';
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
                 <h2>Wat voor persoon ben ik?</h2>
-                <p>
-                    Ga ik later uit typen <br>
-                    smgdjfghdjbg dhfg dg gkjsgk
+                <p class="text-wrap px-5">
+                    Ik ben een vrij rustig persoon.
+                    Gezelligheid op de werkvloer is altijd welkom, maar als het te remoerig is kan ik onrustig worden.
+                    Verder ben ik heel observerend. Ik zie nog wel eens iets wat een ander niet snel opvalt.<br>
+                    <a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a>
                 </p>
-                <p><a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a></p>
             </div>
             <div>
                 <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
                 <p>
-                    Ga ik later uit typen <br>
-                    smgdjfghdjbg dhfg dg gkjsgk
+                    Het leven van een fulltime muzikant is niet makkelijk. <br>
+                    Daarnaast hou ik muziek liever als een hobby, iets dat ik niet hoef te forceren.
                 </p>
             </div>
-            <div class="d-flex justify-content-around">
-                <div id="sterktes">
-                    <p class="highlight">Mijn sterktes</p>
-                    <ul>
-                        <li id="netjes">netjes zijn met spullen</li>
-                        <li id="op_tijd">op tijd komen</li>
-                    </ul>
-                </div>
-                <div id="zwaktes">
-                    <p class="highlight">Mijn zwaktes</p>
-                    <ul>
-                        <li id="conclussies">Snel conclussies trekken</li>
-                        <li id="communicatie">communicatie</li>
-                    </ul>
-                </div>
+            <div>
+                <p class="highlight m-0">Mijn sterktes</p>
+                <ul>
+                    <li>netjes zijn met spullen</li>
+                    <li>op tijd komen</li>
+                    <li>geduldig zijn</li>
+                </ul>
+                <p class="highlight m-0">Mijn zwaktes</p>
+                <ul>
+                    <li>Snel conclussies trekken</li>
+                    <li>communicatie</li>
+                </ul>
             </div>
         </div>
         <!-- De tweede grid -->
@@ -90,8 +88,8 @@ include './php_functies/isset.php';
             <div>
                 <h2>Wat is mijn doel?</h2>
                 <p>
-                    Ga ik later uit typen <br>
-                    smgdjfghdjbg dhfg dg gkjsgk
+                    Ik heb nog niet besloten in welke programmeertaal ik mij wil verdiepen.<br>
+                    Omdat mijn frontend nog niet heel professioneel wil ik mij meer verdiepen in back-end.
                 </p>
             </div>
             <div class="d-inline mt-auto h-100">
