@@ -3,6 +3,8 @@ session_start();
 require './php_functies/DBConfig.php';
 include './php_functies/functies.php';
 include './php_functies/isset.php';
+
+check_session();
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -47,7 +49,6 @@ include './php_functies/isset.php';
         </div>
         <img class="logo ikke" src="./afbeeldingen/ik.png" alt="afbeelding van mijzelf">
     </header>
-
     <!-- ----------------------- -->
     <!-- Twee informatieve grids -->
     <div class="card-group grid_container">

@@ -89,11 +89,53 @@ function user_feedback()
             return "Het lijkt er op dat niet alle inlog veldjes ingevult zijn.<br>Zeer amuserend.";
         case "failed":
             return "Helaas, het lijkt er op dat de gebruikte inlog gegevens incorrect zijn.<br>Probeer het nog een keer... of ook niet.";
+        case "nice_try":
+            return "Het lijkt er op dat je niet de juiste rechten hebt om deze website te bezoeken. Leuk geprobeerd, maar doe maar niet.";
         case "W3rkgev3r2938":
             return "Een goede dag gewenst, beste werkgever.";
         case "easteregg":
             return "<strong>Gefeliciteerd! Je het het easteregg account gevonden.</strong>";
         default:
+    }
+}
+
+function loguit()
+{
+    unset($_SESSION['loggedIn']);
+    unset($_SESSION['status']);
+    unset($_SESSION['user']);
+    header('Refresh:0');
+}
+
+function return_alert()
+{
+    if (isset($_SESSION['status'])) {
+        if ($_SESSION['weggeclicked'] == 'false') {
+            require_once('./webelementen/alert.php');
+        }
+    }
+}
+function return_anchor()
+{
+    if (isset($_SESSION['user'])) {
+        if ($_SESSION['user'] == "W3rkgev3r2938") {
+            return '<a href="./wie_ben_ik.php">Wat voor persoon ben ik</a>';
+        }
+    }
+}
+
+function check_session()
+{
+    if (isset($_SESSION['user'])) {
+        if ($_SESSION['user'] !== "W3rkgev3r2938") {
+            $_SESSION['status'] = 'nice_try';
+            $_SESSION['weggeclicked'] = 'false';
+            header('Location: ./index.php');
+        }
+    } else {
+        $_SESSION['status'] = 'nice_try';
+        $_SESSION['weggeclicked'] = 'false';
+        header('Location: ./index.php');
     }
 }
 ?>
