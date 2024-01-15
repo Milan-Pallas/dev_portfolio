@@ -202,7 +202,7 @@ footer {
     text-align: center;
 }
 
-tbody {
+.disconnected {
     background-image: url(./afbeeldingen/disconnected.png), linear-gradient(var(--secondary), var(--secondary));
     background-size: cover;
     background-position: bottom;

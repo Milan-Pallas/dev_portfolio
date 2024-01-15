@@ -40,7 +40,7 @@ include './php_functies/functies.php';
                 <th><h1>Helaas</h1></th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="disconnected">
             <tr>
                 <td>
                     <p>Er is iets fout gegaan bij het koppelen van het database waardoor de pagina niet geladen kon worden.</p>
