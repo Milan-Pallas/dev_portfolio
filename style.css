@@ -129,11 +129,13 @@ nav {
     margin: 1px;
     text-align: left;
     border-radius: 4px;
+    transition: 0.6s;
 }
 
 .kleur:hover {
     cursor: pointer;
     font-weight: bold;
+    padding: 8px;
 }
 
 .kleur:nth-child(1):hover {
