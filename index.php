@@ -116,8 +116,8 @@ include './php_functies/isset.php';
         </div>
     </div>
 
-    <!-- ------------------------------------------------------------------------------- -->
-    <!-- Deze grid is bijna identiek en word gespiegeld weergegeven voor een leuk effect -->
+    <!-- ------------------- -->
+    <!-- De gespiegelde grid -->
     <div class="card-group grid_container">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">

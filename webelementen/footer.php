@@ -13,7 +13,7 @@
         </div>
         <div class="container col-4 d-flex flex-column align-items-center justify-content-center footer_div">
             <p>Voor het laatst bijgewerkt:</p>
-            <p class="highlight">7-12-2023</p>
+            <p class="highlight">15-1-2024</p>
         </div>
     </div>
 </footer>

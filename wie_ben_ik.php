@@ -49,6 +49,7 @@ check_session();
         </div>
         <img class="logo ikke" src="./afbeeldingen/ik.png" alt="afbeelding van mijzelf">
     </header>
+    
     <!-- ----------------------- -->
     <!-- Twee informatieve grids -->
     <div class="card-group grid_container">
@@ -114,30 +115,65 @@ check_session();
     </div>
 
     <!-- -------------------- -->
-    <!-- De gesoiegelde grids -->
+    <!-- De gespiegelde grids -->
     <div class="card-group grid_container">
         <!-- De eerste grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
-                
+                <h2>Wat voor persoon ben ik?</h2>
+                <p class="text-wrap px-5">
+                    Ik ben een vrij rustig persoon.
+                    Gezelligheid op de werkvloer is altijd welkom, maar als het te remoerig is kan ik onrustig worden.
+                    Verder ben ik heel observerend. Ik zie nog wel eens iets wat een ander niet snel opvalt.<br>
+                    <a href="./statustieken_voor_nerds.php">Statustieken voor nerds</a>
+                </p>
             </div>
             <div>
-                
+                <h2>Waarom maak ik niet van muziek mijn carriere?</h2>
+                <p>
+                    Het leven van een fulltime muzikant is niet makkelijk. <br>
+                    Daarnaast hou ik muziek liever als een hobby, iets dat ik niet hoef te forceren.
+                </p>
             </div>
             <div>
-                
+                <p class="highlight m-0">Mijn sterktes</p>
+                <ul>
+                    <li>netjes zijn met spullen</li>
+                    <li>op tijd komen</li>
+                    <li>geduldig zijn</li>
+                </ul>
+                <p class="highlight m-0">Mijn zwaktes</p>
+                <ul>
+                    <li>Snel conclussies trekken</li>
+                    <li>communicatie</li>
+                </ul>
             </div>
         </div>
         <!-- De tweede grid -->
         <div class="container col-12 col-lg-6 grids mb-4">
             <div>
-                
+                <h2>Wat is mijn doel?</h2>
+                <p>
+                    Ik heb nog niet besloten in welke programmeertaal ik mij wil verdiepen.<br>
+                    Omdat mijn frontend niet heel professioneel wil ik mij meer verdiepen in back-end.
+                </p>
+            </div>
+            <div class="d-inline mt-auto h-100">
+                <h2>Mijn cv, diploma's en certificaten</h2>
+                <ul>
+                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
+                    <br>
+                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf">Diploma: ICT medewerker</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf">Diploma: ICT beheerder</a></li>
+                </ul>
             </div>
             <div>
-                
-            </div>
-            <div>
-                
+                <h2>Mijn competenties</h2>
+                <ul>
+                    <li><p>Observerend</p></li>
+                    <li><p>Naukeurig</p></li>
+                    <li><p>Serieus</p></li>
+                </ul>
             </div>
         </div>
     </div>
