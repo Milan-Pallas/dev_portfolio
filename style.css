@@ -128,13 +128,14 @@ nav {
     margin: 1px;
     text-align: left;
     border-radius: 4px;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 
 .kleur:hover {
     cursor: pointer;
     font-weight: bold;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .kleur:nth-child(1):hover {
