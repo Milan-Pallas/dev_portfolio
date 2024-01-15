@@ -90,7 +90,7 @@ function user_feedback()
         case "failed":
             return "Helaas, het lijkt er op dat de gebruikte inlog gegevens incorrect zijn.<br>Probeer het nog een keer... of ook niet.";
         case "nice_try":
-            return "Het lijkt er op dat je niet de juiste rechten hebt om deze website te bezoeken. Leuk geprobeerd, maar doe maar niet.";
+            return "Het lijkt er op dat je niet de juiste rechten hebt om deze website te bezoeken.";
         case "W3rkgev3r2938":
             return "Een goede dag gewenst, beste werkgever.";
         case "easteregg":

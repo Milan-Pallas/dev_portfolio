@@ -95,7 +95,12 @@ check_session();
             </div>
             <div class="d-inline mt-auto h-100">
                 <h2>Mijn cv, diploma's en certificaten</h2>
-
+                <ul>
+                    <li><a href="./gevoelige_documenten/curriculum_vitae.pdf">Mijn CV</a></li>
+                    <br>
+                    <li><a href="./gevoelige_documenten/mbo_ict_medewerker.pdf">Diploma: ICT medewerker</a></li>
+                    <li><a href="./gevoelige_documenten/mbo_ict_beheerder.pdf">Diploma: ICT beheerder</a></li>
+                </ul>
             </div>
             <div>
                 <h2>Mijn competenties</h2>
