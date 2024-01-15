@@ -16,7 +16,7 @@
             <p class="highlight">15-1-2024</p>
         </div>
         <div class="container col-3 d-flex flex-column align-items-center justify-content-center footer_div">
-            <p class="highlight">Vind ij op:</p>
+            <p>Vind ij op:</p>
             <p><a href="https://github.com/Milan-Pallas"><i class="bi bi-github"></i> GitHub</a></p>
             <p><a href="https://www.linkedin.com/in/milan-pallas-b719b0281/"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
         </div>
