@@ -23,7 +23,7 @@ include './php_functies/isset.php';
     <!-- OpenGraph protocols -->
     <!-- <meta property="og:title" content="Het portfolio van Moss" />
     <meta property="og:type" content="webportfolio.moss" />
-    <meta property="og:url" content="file:///C:\xampp\htdocs\personal_projects\dev_portfolio_of_moss" />
+    <meta property="og:url" content="file:///C:\xampp\htdocs\personal_projects\dev_portfolio" />
     <meta property="og:image" content="./moss_favicon/android-chrome-192x192.png" /> -->
     <!-- Bootstrap5 links -->
     <link rel="stylesheet" href="./bootstrap5/css/bootstrap.css">
