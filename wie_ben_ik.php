@@ -43,7 +43,7 @@ check_session();
         <div>
             <h1>Wat meer informatie over mij</h1>
             <p>
-                Mijn volledige naam is Milan Pallas. <br>
+                Mijn volledige naam is Milan Pallas, en ik ben 23 jaar oud. <br>
                 Zie deze pagina als een zoort FAQ over mijzelf.
             </p>
         </div>

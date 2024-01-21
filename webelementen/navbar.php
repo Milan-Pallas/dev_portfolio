@@ -45,7 +45,7 @@
             </form>
             <div class="modal-body">
                 <p>Mijn log-in module is uitsluitend bedoeld voor werkgevers of mensen die ik persoonlijk ken.</p>
-                <p>Er is wellicht een ander account die wel voor het bubliek toegankelijk is. <br>Wie goed kan zoeken...</p>
+                <!-- <p>Er is wellicht een ander account die wel voor het bubliek toegankelijk is. <br>Wie goed kan zoeken...</p> -->
             </div>
         </div>
     </div>

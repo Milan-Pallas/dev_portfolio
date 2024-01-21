@@ -243,6 +243,7 @@ header {
     border-color: var(--highlight);
     color: var(--highlight);
     border-style: solid;
+    transition: 0.2s;
 }
 
 .button_css:hover {
@@ -254,6 +255,7 @@ header {
     border-color: var(--highlight);
     color: var(--highlight);
     border-style: solid;
+    transition: 0.2s;
 }
 
 .button_css_reverse:hover {
@@ -277,7 +279,7 @@ header {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 2rem;
-    height: 34rem;
+    height: 600px;
 }
 
 .grids > div {
